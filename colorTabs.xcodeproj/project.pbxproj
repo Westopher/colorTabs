@@ -12,6 +12,10 @@
 		3D1EDF962242B566009F55DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1EDF942242B566009F55DE /* Main.storyboard */; };
 		3D1EDF982242B567009F55DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1EDF972242B567009F55DE /* Assets.xcassets */; };
 		3D1EDF9B2242B567009F55DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1EDF992242B567009F55DE /* LaunchScreen.storyboard */; };
+		3D1EDFA32242CB2B009F55DE /* OrangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EDFA22242CB2B009F55DE /* OrangeVC.swift */; };
+		3D1EDFA52242CB3B009F55DE /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EDFA42242CB3B009F55DE /* YellowVC.swift */; };
+		3D1EDFA72242CB47009F55DE /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EDFA62242CB47009F55DE /* BlueVC.swift */; };
+		3D1EDFA92242CB7D009F55DE /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EDFA82242CB7D009F55DE /* GreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3D1EDF972242B567009F55DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1EDF9A2242B567009F55DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1EDF9C2242B567009F55DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1EDFA22242CB2B009F55DE /* OrangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeVC.swift; sourceTree = "<group>"; };
+		3D1EDFA42242CB3B009F55DE /* YellowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
+		3D1EDFA62242CB47009F55DE /* BlueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
+		3D1EDFA82242CB7D009F55DE /* GreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				3D1EDF902242B566009F55DE /* AppDelegate.swift */,
 				3D1EDF922242B566009F55DE /* RedVC.swift */,
+				3D1EDFA22242CB2B009F55DE /* OrangeVC.swift */,
+				3D1EDFA42242CB3B009F55DE /* YellowVC.swift */,
+				3D1EDFA82242CB7D009F55DE /* GreenVC.swift */,
+				3D1EDFA62242CB47009F55DE /* BlueVC.swift */,
 				3D1EDF942242B566009F55DE /* Main.storyboard */,
 				3D1EDF972242B567009F55DE /* Assets.xcassets */,
 				3D1EDF992242B567009F55DE /* LaunchScreen.storyboard */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1EDFA92242CB7D009F55DE /* GreenVC.swift in Sources */,
+				3D1EDFA32242CB2B009F55DE /* OrangeVC.swift in Sources */,
 				3D1EDF932242B566009F55DE /* RedVC.swift in Sources */,
+				3D1EDFA52242CB3B009F55DE /* YellowVC.swift in Sources */,
 				3D1EDF912242B566009F55DE /* AppDelegate.swift in Sources */,
+				3D1EDFA72242CB47009F55DE /* BlueVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

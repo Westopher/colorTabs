@@ -29,7 +29,7 @@
         <!--Orange-->
         <scene sceneID="pHV-lY-ULH">
             <objects>
-                <viewController id="xt6-kP-PhJ" sceneMemberID="viewController">
+                <viewController id="xt6-kP-PhJ" customClass="OrangeVC" customModule="colorTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XN9-sv-5A6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,7 @@
         <!--Green-->
         <scene sceneID="E7y-7w-IrF">
             <objects>
-                <viewController id="hOZ-IS-gd3" sceneMemberID="viewController">
+                <viewController id="hOZ-IS-gd3" customClass="GreenVC" customModule="colorTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lsk-5J-UfJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
         <!--Blue-->
         <scene sceneID="huX-cC-nGc">
             <objects>
-                <viewController id="eJN-5o-rln" sceneMemberID="viewController">
+                <viewController id="eJN-5o-rln" customClass="BlueVC" customModule="colorTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yha-pu-jX9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +98,7 @@
         <!--Yellow-->
         <scene sceneID="M2Q-SO-B0n">
             <objects>
-                <viewController id="Odt-ZR-LzV" sceneMemberID="viewController">
+                <viewController id="Odt-ZR-LzV" customClass="YellowVC" customModule="colorTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cLC-Vm-aNR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
