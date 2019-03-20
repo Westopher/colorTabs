@@ -17,6 +17,7 @@
 		3D1EDFA72242CB47009F55DE /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EDFA62242CB47009F55DE /* BlueVC.swift */; };
 		3D1EDFA92242CB7D009F55DE /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EDFA82242CB7D009F55DE /* GreenVC.swift */; };
 		3DCB194D2242D05B0008ACEC /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB194C2242D05B0008ACEC /* StateViewController.swift */; };
+		3DCB194F2242D8A00008ACEC /* SecondStateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB194E2242D8A00008ACEC /* SecondStateVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3D1EDFA62242CB47009F55DE /* BlueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
 		3D1EDFA82242CB7D009F55DE /* GreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
 		3DCB194C2242D05B0008ACEC /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		3DCB194E2242D8A00008ACEC /* SecondStateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStateVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +68,26 @@
 			children = (
 				3D1EDF902242B566009F55DE /* AppDelegate.swift */,
 				3DCB194C2242D05B0008ACEC /* StateViewController.swift */,
-				3D1EDF922242B566009F55DE /* RedVC.swift */,
-				3D1EDFA22242CB2B009F55DE /* OrangeVC.swift */,
-				3D1EDFA42242CB3B009F55DE /* YellowVC.swift */,
-				3D1EDFA82242CB7D009F55DE /* GreenVC.swift */,
-				3D1EDFA62242CB47009F55DE /* BlueVC.swift */,
+				3DCB194E2242D8A00008ACEC /* SecondStateVC.swift */,
+				3DCB19502242D8AB0008ACEC /* ColorVCs */,
 				3D1EDF942242B566009F55DE /* Main.storyboard */,
 				3D1EDF972242B567009F55DE /* Assets.xcassets */,
 				3D1EDF992242B567009F55DE /* LaunchScreen.storyboard */,
 				3D1EDF9C2242B567009F55DE /* Info.plist */,
 			);
 			path = colorTabs;
+			sourceTree = "<group>";
+		};
+		3DCB19502242D8AB0008ACEC /* ColorVCs */ = {
+			isa = PBXGroup;
+			children = (
+				3D1EDF922242B566009F55DE /* RedVC.swift */,
+				3D1EDFA22242CB2B009F55DE /* OrangeVC.swift */,
+				3D1EDFA42242CB3B009F55DE /* YellowVC.swift */,
+				3D1EDFA82242CB7D009F55DE /* GreenVC.swift */,
+				3D1EDFA62242CB47009F55DE /* BlueVC.swift */,
+			);
+			path = ColorVCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 				3D1EDFA32242CB2B009F55DE /* OrangeVC.swift in Sources */,
 				3D1EDF932242B566009F55DE /* RedVC.swift in Sources */,
 				3D1EDFA52242CB3B009F55DE /* YellowVC.swift in Sources */,
+				3DCB194F2242D8A00008ACEC /* SecondStateVC.swift in Sources */,
 				3DCB194D2242D05B0008ACEC /* StateViewController.swift in Sources */,
 				3D1EDF912242B566009F55DE /* AppDelegate.swift in Sources */,
 				3D1EDFA72242CB47009F55DE /* BlueVC.swift in Sources */,
